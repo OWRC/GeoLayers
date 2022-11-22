@@ -1,0 +1,6 @@
+title:  ORMGP Boston-Mills
+description: BEDROCK VALLEY HYDROGEOLOGIC SETTING (Caledon East bedrock valley)
+markdown: kramdown
+kramdown:
+    math_engine: katex
+theme: jekyll-theme-slate
