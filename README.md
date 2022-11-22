@@ -1,7 +1,7 @@
 # Boston Mills (GitHub page)
-ORMGP fact sheet of Bedrock at Boston-Mills
+ORMGP fact sheet of how Geologic Layers are developed
 
-site is published at https://owrc.github.io/Boston-Mills/
+site is published at https://owrc.github.io/GeoLayers/
 
 
-edit document [here](https://github.com/OWRC/Boston-Mills/blob/main/index.md)
+edit document [here](https://github.com/OWRC/GeoLayers/index.md)
