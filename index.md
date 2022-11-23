@@ -61,4 +61,34 @@ North of the moraine, the high resolution DEM was used as an additional source o
 In summary, polylines provide an important control over the gridding process, however they need to be used carefully and only where necessary. Verification of the layer geometry is ongoing, through both drilling and seismic surveys across the study area. With time, polyline constraints can be removed as hard data is collected and substituted. At present, however, polylines represent a key link between the conceptual model and numerical model.
 
 ## Step 3: Pushdown Check
-During
+Handling of “push down” conditions was particularly important to the interpretation of the bedrock surface because of the sparseness of the data and the potentially strong influence of the Laurentian River valley system. A “push down” condition occurs where a deep well, which does not encounter bedrock, indicates that the bedrock surface must be lower than the estimated interpolation level. The deep “push down” well does not actually encounter bedrock, however it proves that bedrock is some distance below the bottom of the borehole. The bedrock surface must be “pushed down” below the base of that well, even though the bedrock is not actually encountered in that well.
+
+Deep “push-down” wells were used both before and after polyline drawing step. Both bedrock wells and deep push-down wells were reviewed to initially identify the bedrock valley thalweg positions. One the thalwegs were defined (as outlined above), additional push-down checks were performed to ensure that these deep indicator wells were fully integrated into the surface generation process.
+
+Specific display techniques were used to help visualize the push-down conditions. Sediment boreholes (e.g. those that do not encounter bedrock) were plotted on plan view with a bottom-hole elevation represented by scaled and gradationally color coded symbols. This allowed deep push down holes to clearly appear as large, bright symbols. Bedrock valley thalwegs were then interpreted on plan view, and cross sections were generated along those thalwegs. Polylines were added to the thalweg cross sections to ensure that the bedrock surface correctly represented the decreasing elevation of the valley system.
+
+Other push-down surface checks were performed in a manner similar to the GSC methodology (Logan et al., 2001). In general, the following steps were used:
+ 
+• Bedrock picks were made at all wells that intercept bedrock 
+• The initial bedrock surface was interpolated using all bedrock picks 
+• The non-bedrock (sediment) wells were evaluated by plotting them on plan view with a 
+bottom-hole elevation represented by scaled and gradationally color coded symbols, thus 
+showing deep overburden wells as large, bright symbols. 
+• Using the initially interpolated bedrock surface and the deep, brightly coloured, non-bedrock 
+wells, bedrock valleys were identified and bedrock valley thalwegs were drawn on plan view. 
+• Cross-sections were generated along the bedrock valley thalwegs and bedrock polylines 
+were drawn on-section to represent the bedrock surface. The polylines were drawn to 
+connect the bedrock picks and to ensure that the bedrock surface was beneath the deeper 
+sediment wells. The lines were also drawn to ensure that the bedrock surface correctly 
+represented the decreasing elevation of a fluvially eroded valley system. 
+• The secondary bedrock surface was then interpolated using the bedrock picks at the 
+bedrock wells and the vertex points of the bedrock surface polylines created along the 
+bedrock valley thalwegs. 
+• This surface was checked against the non-bedrock wells to see whether any of the nonbedrock wells intersected the secondary bedrock surface. 
+• Where non-bedrock wells were deeper than the secondary bedrock surface the elevation of 
+the well bottom was added as an additional bedrock point to “push down” the final bedrock 
+surface. 
+• Additional polylines were added on cross-sections parallel to the bedrock valley thalwegs to 
+better “shape” the bedrock valleys. 
+• The final bedrock surface was interpolated using all of the above: bedrock picks; polyline 
+vertex points; and the deep non-bedrock wells that pushed down the bedrock surface. 
