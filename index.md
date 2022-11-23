@@ -68,27 +68,28 @@ Deep “push-down” wells were used both before and after polyline drawing step
 Specific display techniques were used to help visualize the push-down conditions. Sediment boreholes (e.g. those that do not encounter bedrock) were plotted on plan view with a bottom-hole elevation represented by scaled and gradationally color coded symbols. This allowed deep push down holes to clearly appear as large, bright symbols. Bedrock valley thalwegs were then interpreted on plan view, and cross sections were generated along those thalwegs. Polylines were added to the thalweg cross sections to ensure that the bedrock surface correctly represented the decreasing elevation of the valley system.
 
 Other push-down surface checks were performed in a manner similar to the GSC methodology (Logan et al., 2001). In general, the following steps were used:
- 
-• Bedrock picks were made at all wells that intercept bedrock 
-• The initial bedrock surface was interpolated using all bedrock picks 
-• The non-bedrock (sediment) wells were evaluated by plotting them on plan view with a 
-bottom-hole elevation represented by scaled and gradationally color coded symbols, thus 
-showing deep overburden wells as large, bright symbols. 
-• Using the initially interpolated bedrock surface and the deep, brightly coloured, non-bedrock 
-wells, bedrock valleys were identified and bedrock valley thalwegs were drawn on plan view. 
-• Cross-sections were generated along the bedrock valley thalwegs and bedrock polylines 
-were drawn on-section to represent the bedrock surface. The polylines were drawn to 
-connect the bedrock picks and to ensure that the bedrock surface was beneath the deeper 
-sediment wells. The lines were also drawn to ensure that the bedrock surface correctly 
-represented the decreasing elevation of a fluvially eroded valley system. 
-• The secondary bedrock surface was then interpolated using the bedrock picks at the 
-bedrock wells and the vertex points of the bedrock surface polylines created along the 
-bedrock valley thalwegs. 
-• This surface was checked against the non-bedrock wells to see whether any of the nonbedrock wells intersected the secondary bedrock surface. 
-• Where non-bedrock wells were deeper than the secondary bedrock surface the elevation of 
-the well bottom was added as an additional bedrock point to “push down” the final bedrock 
-surface. 
-• Additional polylines were added on cross-sections parallel to the bedrock valley thalwegs to 
-better “shape” the bedrock valleys. 
-• The final bedrock surface was interpolated using all of the above: bedrock picks; polyline 
-vertex points; and the deep non-bedrock wells that pushed down the bedrock surface. 
+- Bedrock picks were made at all wells that intercept bedrock 
+- The initial bedrock surface was interpolated using all bedrock picks 
+- The non-bedrock (sediment) wells were evaluated by plotting them on plan view with a bottom-hole elevation represented by scaled and gradationally color coded symbols, thus showing deep overburden wells as large, bright symbols. 
+- Using the initially interpolated bedrock surface and the deep, brightly coloured, non-bedrock wells, bedrock valleys were identified and bedrock valley thalwegs were drawn on plan view. 
+- Cross-sections were generated along the bedrock valley thalwegs and bedrock polylines were drawn on-section to represent the bedrock surface. The polylines were drawn to connect the bedrock picks and to ensure that the bedrock surface was beneath the deeper sediment wells. The lines were also drawn to ensure that the bedrock surface correctly represented the decreasing elevation of a fluvially eroded valley system. 
+- The secondary bedrock surface was then interpolated using the bedrock picks at the bedrock wells and the vertex points of the bedrock surface polylines created along the bedrock valley thalwegs. 
+- This surface was checked against the non-bedrock wells to see whether any of the non-bedrock wells intersected the secondary bedrock surface. 
+- Where non-bedrock wells were deeper than the secondary bedrock surface the elevation of the well bottom was added as an additional bedrock point to “push down” the final bedrock surface. 
+- Additional polylines were added on cross-sections parallel to the bedrock valley thalwegs to better “shape” the bedrock valleys. 
+- The final bedrock surface was interpolated using all of the above: bedrock picks; polyline vertex points; and the deep non-bedrock wells that pushed down the bedrock surface. 
+
+## Step 4: Variogram Analyses and Interpolation
+Once the picking, polylines and push down analysis was complete the surfaces were generated using variogram analysis and kriging. Variogram analysis is discussed below. 
+
+## Step 5: Rules-based Post Processing
+Finally, the surfaces were crosschecked using a series of rules. The rules ensured, for example, that the interpolated layers did not cross. The rules were developed and applied in an order that reflected the distinctive characteristics of each hydrostratigraphic interface (i.e. unconformity, etc.) and the confidence and distinctiveness of the lithologic signature. For example, the ground surface was assigned the highest level of confidence, followed by the bedrock surface, top of the Newmarket Till, and then the remaining units. The following were some of the surface post processing rules:
+- If Bedrock > Ground then Bedrock = Ground 
+- If Newmarket > Ground then Newmarket = Ground 
+- If Newmarket < Bedrock then Newmarket = Bedrock 
+- If Thorncliffe > Newmarket then Throncliffe = Newmarket 
+- If Thorncliffe < Bedrock then Thorncliffe = Bedrock 
+- If Sunnybrook > Thorncliffe then Sunnybrook = Thorncliffe 
+- Etc…
+
+Other surface cross checks were included, including reconciliation with the surficial geology units. Note that the order the equations were processed was also important, as each surface check relied on the preceeding checks and constrants. The approach was not simply a top-down correction, for example constraining the Halton till was one of the last checks performed. Note that other model-layer specific checks were also performed, as outlined in Appendix D, Section 4.2.5.1.
