@@ -93,3 +93,12 @@ Finally, the surfaces were crosschecked using a series of rules. The rules ensur
 - Etc…
 
 Other surface cross checks were included, including reconciliation with the surficial geology units. Note that the order the equations were processed was also important, as each surface check relied on the preceeding checks and constrants. The approach was not simply a top-down correction, for example constraining the Halton till was one of the last checks performed. Note that other model-layer specific checks were also performed, as outlined in Appendix D, Section 4.2.5.1.
+
+# Conclusions
+Layer picking is a complex and challenging task that requires a concerted effort to understand existing conceptual models and adapt and refine them as necessary. The model construction process is complicated by the low quality and conflicting information contained in the MOE well database. Good conceptual models are needed to guide the interpretation process, but actually representing the conceptual insight within the numerical model is a particular challenge.
+
+It is important to point out that the hydrostratigraphic surfaces produced through this study are by no means perfect or complete, and will be in need of continual improvement into the future. Although every effort was made to ensure that the aquifer and aquitard layers developed under this project are consistent with the data, the area covered is simply too large to be able to go into detail everywhere. This concept of continual improvement is in keeping with the overall spirit of the YPDT groundwater management study.
+
+From a flow modelling perspective, continuity and pinch-out of layers is more important than the precise elevation of the surfaces: the models respond to transmissivity changes, including both layer thickness and hydraulic conductivity.
+
+The methodologies used in this project are consistent with those used in other large agencies, including the Alberta Geological Survey, South Florida Water Management District, USGS and Danish Geological Survey, to name only a few. The GSC is also using the same toolset for adapting and refining their stratigraphic surfaces.
