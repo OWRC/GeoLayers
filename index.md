@@ -12,7 +12,7 @@ Construction of aquifer and aquitard layers geometry was one of the most challen
 Database integration, data flexible visualization, efficient layer picking tools, and geostatistical analysis functions provided by the VIEWLOG software made it possible to review and synthesize the large amounts of borehole data (discussed further below). The resulting hydrostratigraphic model not only honoured the borehole and well data, but also encapsulated the conceptual understanding of the processes that formed the Oak Ridges Moraine.
 
 # Background
-![*Figure 1: ORMGP Geologic Layer Development*](https://raw.githubusercontent.com/OWRC/GeoLayers/images/Sharpe.PNG)
+![*Figure 1: ORMGP Geologic Layer Development*](https://raw.githubusercontent.com/OWRC/GeoLayers/main/images/Sharpe.png)
 
 # Data Correction and Data Biases
 Ontario Ministry of Environment driller’s logs form the majority of the borehole information in the database. The accuracy and reliability of individual wells in this data set is sometimes questionable, however, the logs provide a significant amount of useful subsurface information. Care was taken to screen the data visually and correct for obvious or known errors, thereby minimizing the intrinsic biases in the driller’s logs.
