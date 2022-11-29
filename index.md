@@ -13,7 +13,12 @@ Database integration, data visualization, geologic layer picking and geostatisti
 
 # Background
 
-![*Figure 1: ORMGP Geologic Layer Development*](https://raw.githubusercontent.com/OWRC/GeoLayers/main/images/Sharpe.png)
+
+
+
+![*Figure 1: ORMGP Geologic Layer Development*](https://raw.githubusercontent.com/OWRC/GeoLayers/main/images/sharpe01.png)
+
+![*Figure 2: ORMGP Geologic Layer Development*](https://raw.githubusercontent.com/OWRC/GeoLayers/main/images/sharpe02.png)
 
 # Data Correction and Data Biases
 Ontario Ministry of Environment driller’s logs form the majority of the borehole information in the database. The accuracy and reliability of individual wells in this data set is sometimes questionable, however, the logs provide a significant amount of useful subsurface information. Care was taken to screen the data visually and correct for obvious or known errors, thereby minimizing the intrinsic biases in the driller’s logs.
