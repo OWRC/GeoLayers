@@ -9,16 +9,14 @@ output: html_document
 # Introduction
 Construction of aquifer and aquitard layers geometry has been one of the most challenging tasks of the ORMGP. this is an ongoing process whereby the geologic layers are updated as new data and conceptual understanding is available. The picking of geologic surfaces at borehole locations is a fundamental step in this process, however, to fully represent the complexity of the aquifer/aquitard system, geologic picks were supplemented with information obtained from subtle hydrogeologic indicators (such as well screen placement and well depth) as well as from expert intuition and geologic conceptual understanding of the sedimentological processes. This information was integrated into the model construction process using 3-D polylines to constrain the interpolation processes.
 
-Database integration, data visualization, geologic layer picking and geostatistical analysis functions provided are required to review and interpret the large amounts of borehole data (discussed further below). The result is a hydrostratigraphic model that honours the borehole and well data and encapsulates the conceptual understanding of the processes that formed the Oak Ridges Moraine.
+Database integration, data visualization, geologic layer picking and geostatistical analyses are required to review and interpret the large amounts of borehole data. The result is a hydrostratigraphic model that honours the borehole and well data and encapsulates the conceptual understanding of the processes that formed the Oak Ridges Moraine.
 
 # Background
 
+The figure below depicts the stratigraphic framework for south-central Ontario (modified from Sharpe et al. 2011). (a) Age, lithostratigraphy, and chronostratigraphy. A regional (channel) unconformity (long sloping red line) is present beneath both Oak Ridges Moraine (ORM) and upper Thorncliffe Formation (TF) sediments; Lower sediment (blue sequence) comprises a series of formations and units below the Newmarket Till and resting on bedrock, which are difficult to trace separately across the area. (b) Schematic geological interpretation of the major strata that can be mapped on surface and (or) identified on seismic profiles (except Halton Till); note that ORM consists of channel and ridge sediments as part of the landform architecture; Lower sediment is a group of poorly mapped formations and units recognized primarily in lake sections at Scarborough Bluffs (e.g., Karrow 1967) but difficult to trace across the area except for TF; note the depiction of Thorncliffe channels (TC) in Lower sediment unit
 
 
-
-![*Figure 1: ORMGP Geologic Layer Development*](https://raw.githubusercontent.com/OWRC/GeoLayers/main/images/sharpe01.png)
-
-![*Figure 2: ORMGP Geologic Layer Development*](https://raw.githubusercontent.com/OWRC/GeoLayers/main/images/sharpe02.png)
+![**](https://raw.githubusercontent.com/OWRC/GeoLayers/main/images/sharpeab.png)
 
 # Data Correction and Data Biases
 Ontario Ministry of Environment driller’s logs form the majority of the borehole information in the database. The accuracy and reliability of individual wells in this data set is sometimes questionable, however, the logs provide a significant amount of useful subsurface information. Care was taken to screen the data visually and correct for obvious or known errors, thereby minimizing the intrinsic biases in the driller’s logs.
