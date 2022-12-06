@@ -29,7 +29,7 @@ A standardized scheme to re-code driller’s log descriptions was developed by G
 
 Other percieved biases and patterns were identified during the geological surface refinement process. As most drillers are hired simply to find water, they frequently stop drilling as soon as they encounter a significant aquifer zone. Since tapping into the top few metres of a significant aquifer is all that is necessary to meet the needs of most domestic well owners, very little of the permeable aquifer material is sampled and documented within the driller’s logs. As a result, the majority of driller’s logs are typically a record of aquitard materials, with only the bottom-most screened sand or gravel unit representative of aquifer material. Despite these biases, highly significant patterns were identified within the logs, as discussed in the following sections.
 
-# Data Visualization and Analysis Software 
+# Data Visualization and Analysis 
 To analyze the geology and hydrogeology and build the 3D geologic model, different types of borehole data are displayed on cross section.  These data types include: geologic descriptions (both MECP and GSC lithologies), well-screen intervals and water levels. Viewing these data types on cross section allows the team to make geologic formation picks on cross section. These picks are stored in the database for later use in the interpolation of geologic surfaces.
 
 ![**](https://raw.githubusercontent.com/OWRC/GeoLayers/main/images/XSsummary.png)
