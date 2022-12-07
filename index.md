@@ -18,6 +18,10 @@ The figure below depicts the stratigraphic framework for south-central Ontario (
 
 ![**](https://raw.githubusercontent.com/OWRC/GeoLayers/main/images/sharpeab.png)
 
+The figure below represents the hydrogeologic conceptual cross section from Lake Simcoe in the north across the Oak Ridges Moraine (ORM) to Lake Ontario in the south.  Interpreted groundwater flow directions are shown as blue arrows.  The main aquifer units are the ORM (orange), the ORM channel (1), Thorncliffe Formation channel (2) the Thorncliffe Formation (TF, beige) and the Scarborough Formation (SF, grey), while the main aquitard units are the glaciolacustrine/diamict deposits (light blue), Halton Till (south of the ORM, dark green), Newmarket Till (NT, light green) and the TF silt/clay and Sunnybrook Drift and SF silt/clay.  Note thaqt the Thorncliffe, Sunnybrook and Scarborough units comprise the Lower Sediments. 
+
+![**](https://raw.githubusercontent.com/OWRC/GeoLayers/main/images/XSsummary.png)
+
 # Data Correction and Data Biases
 Ontario Ministry of Environment, Conservation and Parks (MECP) driller’s logs form the majority of the borehole information in the ORMGP database. Although the accuracy and reliability of individual wells in this data set can be questionable, the borehole logs can provide useful information about the subsurface. Borehole data is visually screened and corrected for obvious or known errors, thereby minimizing the potential biases in the driller’s logs.
 
@@ -27,12 +31,14 @@ Water well records in the western Oak Ridges Moraine were compared against detai
 
 A standardized scheme to re-code driller’s log descriptions was developed by GSC geologists for the Oak Ridges Moraine area (Russell et al., 1998). Re-coded lithologic information helped identify drillers’ tendencies in reporting data but could not be relied upon without referring to the high-quality data. For example, a significant bias was the use of the term “clay” by the water well drillers. In reality, analyses of large volumes of data suggested that when clay material was reported, it was more likely to be silt or fine sand. Similarly, drillers rarely use the term "till" but use terms such as “hardpan” or “hard” or report occurrences of “clay gravel”. Re-coded lithologic log information was displayed on cross sections during interpretation and picking, however, presentation of the original (un-coded) raw MECP lithologic descriptions was still considered essential to the identification of unit boundaries and key indicator patterns.
 
+The figure below shows the coloured legend, which shows the colours and symbols used for the various lithology types during the visualization and intepretation processes.
+
+![**](https://raw.githubusercontent.com/OWRC/GeoLayers/main/images/lithosymbols.png)
+
 Other percieved biases and patterns were identified during the geological surface refinement process. As most drillers are hired simply to find water, they frequently stop drilling as soon as they encounter a significant aquifer zone. Since tapping into the top few metres of a significant aquifer is all that is necessary to meet the needs of most domestic well owners, very little of the permeable aquifer material is sampled and documented within the driller’s logs. As a result, the majority of driller’s logs are typically a record of aquitard materials, with only the bottom-most screened sand or gravel unit representative of aquifer material. Despite these biases, highly significant patterns were identified within the logs, as discussed in the following sections.
 
 # Data Visualization and Analysis 
 To analyze the geology and hydrogeology and build the 3D geologic model, different types of borehole data are displayed on cross section.  These data types include: geologic descriptions (both MECP and GSC lithologies), well-screen intervals and water levels. Viewing these data types on cross section allows the team to make geologic formation picks on cross section. These picks are stored in the database for later use in the interpolation of geologic surfaces.
-
-![**](https://raw.githubusercontent.com/OWRC/GeoLayers/main/images/XSsummary.png)
 
 In addition to geologic picks, 3-D polylines are drawn to capture expert intuition during the interpretation process. Polylines, which are lines of contact between different hydrostratigraphic or geologic units, are used to control and constrain the the process of geologic surface generation.  Polylines are added either perpendicular or parallel to the axis of interpreted channels or valley features. Each polyline is assigned to a hydrostratigraphic unit, and the individual vertex points in that polyline were then included (along with the well picks) in the gridding process for that particular unit. For example, the drainage pattern in bedrock valley systems was created by adding polylines down the inferred thalweg cross section. The truncation and pinch out of layers at the edges of the tunnel channels was defined using polylines perpendicular to the axis of the channel feature. Plan view manual contouring was also integrated as necessary. 
 
@@ -53,7 +59,6 @@ Hydrostratigraphic units were picked on thousands of cross sections through the 
 contact. A related issue was the level of descriptive detail in an individual well. For example, wells with too few material codes or long sections of very simple descriptions were, in some cases, considered “suspect” (suggesting that the driller was not attentive to the geological changes that were present). 
 - Silt + and lack of hard-material code: The GSC suggested (Russell et al., 1998) that in many cases clay materials identified by drillers was, in actual fact, silt. However, where silt was described in the MECP logs, it was observed that there was a link between the location of these wells and the location of potential tunnel channels. This correlation, especially where the term “hard” as a material modifier was absent, led to a general interpretation that “silt“ was a potential indicator of tunnel channel sediments.
 
-![**](https://raw.githubusercontent.com/OWRC/GeoLayers/main/images/lithosymbols.png)
 
 ## Step 2: Addition of 3D Polyline Constraints
 During the cross section interpretation process, 3D polylines were added manually.  Each node (or vertix point) along a polyline essentially represents a geologic pick in an area where no wells exist (in total, over 80,000 polyline nodes have been added). These polylines ensured the continuity of geologic structures, particularly in areas where there is a lack of borehole data. Polylines were also used to help constrain push-down conditions (described below).
