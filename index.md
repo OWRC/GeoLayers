@@ -11,20 +11,20 @@ output: html_document
 {:toc}
 
 # Introduction
-Construction of aquifer and aquitard layers geometry has been one of the most challenging tasks of the Oak Ridges Moraine Groundwater Program (ORMGP). this is an ongoing process whereby the geologic layers are updated as new data and conceptual understanding is available. The picking of geologic surfaces at borehole locations is a fundamental step in this process, however, to fully represent the complexity of the aquifer/aquitard system, geologic picks were supplemented with information obtained from subtle hydrogeologic indicators (such as well screen placement and well depth) as well as from expert intuition and geologic conceptual understanding of the sedimentological processes. This information was integrated into the model construction process using 3-D polylines to constrain the interpolation processes.
+Construction of aquifer and aquitard layers geometry has been one of the most challenging tasks of the Oak Ridges Moraine Groundwater Program (ORMGP). This is an ongoing process whereby the geologic layers are updated as new data and conceptual understanding is available. The picking of geologic surfaces at borehole locations is a fundamental step in this process; however, to fully represent the complexity of the aquifer/aquitard system, geologic picks were supplemented with information obtained from other hydrogeologic indicators (such as well screen placement and well depth, geophysics) as well as from expert intuition and geologic conceptual understanding of the sedimentological processes. This information was integrated into the model construction process using 3-D polylines to constrain the interpolation processes.
 
 Database integration, data visualization, geologic layer picking and geostatistical analyses are required to review and interpret the large amounts of borehole data. The result is a hydrostratigraphic model that honours the borehole and well data and encapsulates the conceptual understanding of the processes that formed the Oak Ridges Moraine.
 
 # Background
-Southern Ontario is underlain by Quaternary surficial sediments that can exceed 200 m in thickness.  Beneath this sediment package lies Paleozoic bedrock that has a surface characterized by a sereos of exposed escarpments and a deep bedrock trough. In addition, there are secondary bedrock valleys that are smaller in scale. The bedrock surface was shaped by a combination of fluvial, glacial and glaciofluvial processes. The Quaternary sediments for this part of Ontario is complex, with regional unconformities. Further details of the extensive mapping that has been done can be found in (REF.)
+Southern Ontario is underlain by Quaternary surficial sediments that can exceed 200 m in thickness. Beneath this sediment package lies Paleozoic bedrock that has a surface characterized by a series of exposed escarpments and a deep bedrock trough. In addition, there are secondary bedrock valleys that are smaller in scale. The bedrock surface was shaped by a combination of fluvial, glacial and glaciofluvial processes. The Quaternary sediments for this area of Ontario is complex, with regional unconformities. 
 
 The figure below depicts the stratigraphic framework for south-central Ontario (modified from Sharpe et al. 2011). (a) Age, lithostratigraphy, and chronostratigraphy. A regional (channel) unconformity (long sloping red line) is present beneath both Oak Ridges Moraine (ORM) and upper Thorncliffe Formation (TF) sediments; Lower sediment (blue sequence) comprises a series of formations and units below the Newmarket Till and resting on bedrock, which are difficult to trace separately across the area. (b) Schematic geological interpretation of the major strata that can be mapped on surface and (or) identified on seismic profiles (except Halton Till); note that ORM consists of channel and ridge sediments as part of the landform architecture; Lower sediment is a group of poorly mapped formations and units recognized primarily in lake sections at Scarborough Bluffs (e.g., Karrow 1967) but difficult to trace across the area except for TF; note the depiction of Thorncliffe channels (TC) in Lower sediment unit.
 
-![**](https://raw.githubusercontent.com/OWRC/GeoLayers/main/images/sharpeab.png)
+![*Figure 1*](https://raw.githubusercontent.com/OWRC/GeoLayers/main/images/sharpeab.png)
 
 The figure below represents the hydrogeologic conceptual cross section from Lake Simcoe in the north across the Oak Ridges Moraine (ORM) to Lake Ontario in the south.  Interpreted groundwater flow directions are shown as blue arrows.  The main aquifer units are the ORM (orange), the ORM channel (1), Thorncliffe Formation channel (2) the Thorncliffe Formation (TF, beige) and the Scarborough Formation (SF, grey), while the main aquitard units are the glaciolacustrine/diamict deposits (light blue), Halton Till (south of the ORM, dark green), Newmarket Till (NT, light green) and the TF silt/clay and Sunnybrook Drift and SF silt/clay.  Note thaqt the Thorncliffe, Sunnybrook and Scarborough units comprise the Lower Sediments. 
 
-![**](https://raw.githubusercontent.com/OWRC/GeoLayers/main/images/XSsummary.png)
+![*Figure 2*](https://raw.githubusercontent.com/OWRC/GeoLayers/main/images/XSsummary.png)
 
 # Data Correction and Data Biases
 Ontario Ministry of Environment, Conservation and Parks (MECP) driller’s logs form the majority of the borehole information in the ORMGP database. Although the accuracy and reliability of individual wells in this data set can be questionable, the borehole logs can provide useful information about the subsurface. Borehole data is visually screened and corrected for obvious or known errors, thereby minimizing the potential biases in the driller’s logs.
@@ -37,7 +37,7 @@ A standardized scheme to re-code driller’s log descriptions was developed by G
 
 The figure below shows the coloured legend, which shows the colours and symbols used for the various lithology types during the visualization and intepretation processes.
 
-![**](https://raw.githubusercontent.com/OWRC/GeoLayers/main/images/lithosymbols.png)
+![*Figure 3*](https://raw.githubusercontent.com/OWRC/GeoLayers/main/images/lithosymbols.png)
 
 Other percieved biases and patterns were identified during the geological surface refinement process. As most drillers are hired simply to find water, they frequently stop drilling as soon as they encounter a significant aquifer zone. Since tapping into the top few metres of a significant aquifer is all that is necessary to meet the needs of most domestic well owners, very little of the permeable aquifer material is sampled and documented within the driller’s logs. As a result, the majority of driller’s logs are typically a record of aquitard materials, with only the bottom-most screened sand or gravel unit representative of aquifer material. Despite these biases, highly significant patterns were identified within the logs, as discussed in the following sections.
 
@@ -48,7 +48,7 @@ In addition to geologic picks, 3-D polylines are drawn during the interpretation
 
 The figure below presents a sample cross section and shows how 3-D polylines were used to constrain tunnel channel geometry. The thin black lines in the figure that generally follow the unit boundaries are the constraint polylines. These constraint lines, together with the borehole picks, produce the unit boundaries (final interpolated units are show as solid color filled zones). 
 
-![**](https://raw.githubusercontent.com/OWRC/GeoLayers/main/images/pickingonsection.png)
+![*Figure 4*](https://raw.githubusercontent.com/OWRC/GeoLayers/main/images/pickingonsection.png)
 
 # Interpretation Methodology
 Development of the hydrostratigraphic surfaces involves an iterative process of interpretation, gridding and refinement. Layer elevations need to be evaluated when new data becomes available. Elements of the GSC’s rules-based approach to the generation of the stratigraphic surfaces (Logan et al., 2001) are incorporated into the hydrostratigraphic interpretation methodology.  The main interpretive methodologies used were: 
