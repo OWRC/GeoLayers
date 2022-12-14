@@ -21,10 +21,12 @@ Southern Ontario is underlain by Quaternary surficial sediments that can exceed 
 The figure below depicts the stratigraphic framework for south-central Ontario (modified from Sharpe et al. 2011). (a) Age, lithostratigraphy, and chronostratigraphy. A regional (channel) unconformity (long sloping red line) is present beneath both Oak Ridges Moraine (ORM) and upper Thorncliffe Formation (TF) sediments; Lower sediment (blue sequence) comprises a series of formations and units below the Newmarket Till and resting on bedrock, which are difficult to trace separately across the area. (b) Schematic geological interpretation of the major strata that can be mapped on surface and (or) identified on seismic profiles (except Halton Till); note that ORM consists of channel and ridge sediments as part of the landform architecture; Lower sediment is a group of poorly mapped formations and units recognized primarily in lake sections at Scarborough Bluffs (e.g., Karrow 1967) but difficult to trace across the area except for TF; note the depiction of Thorncliffe channels (TC) in Lower sediment unit.
 
 ![*Figure 1*](https://raw.githubusercontent.com/OWRC/GeoLayers/main/images/sharpeab.png)
+_Figure 1: Stratigraphic Framework (Sharpe et al., 2011)_
 
 The figure below represents the hydrogeologic conceptual cross section from Lake Simcoe in the north across the Oak Ridges Moraine (ORM) to Lake Ontario in the south.  Interpreted groundwater flow directions are shown as blue arrows.  The main aquifer units are the ORM (orange), the ORM channel (1), Thorncliffe Formation channel (2) the Thorncliffe Formation (TF, beige) and the Scarborough Formation (SF, grey), while the main aquitard units are the glaciolacustrine/diamict deposits (light blue), Halton Till (south of the ORM, dark green), Newmarket Till (NT, light green) and the TF silt/clay and Sunnybrook Drift and SF silt/clay.  Note thaqt the Thorncliffe, Sunnybrook and Scarborough units comprise the Lower Sediments. 
 
 ![*Figure 2*](https://raw.githubusercontent.com/OWRC/GeoLayers/main/images/XSsummary.png)
+_Figure 2: Conceptual Cross Section_
 
 # Data Correction and Data Biases
 Ontario Ministry of Environment, Conservation and Parks (MECP) driller’s logs form the majority of the borehole information in the ORMGP database. Although the accuracy and reliability of individual wells in this data set can be questionable, the borehole logs can provide useful information about the subsurface. Borehole data is visually screened and corrected for obvious or known errors, thereby minimizing the potential biases in the driller’s logs.
@@ -38,6 +40,7 @@ A standardized scheme to re-code driller’s log descriptions was developed by G
 The figure below shows the coloured legend, which shows the colours and symbols used for the various lithology types during the visualization and intepretation processes.
 
 ![*Figure 3*](https://raw.githubusercontent.com/OWRC/GeoLayers/main/images/lithosymbols.png)
+_Figure 3: Lithology Legend_
 
 Other perceived biases and patterns were identified during the geological surface refinement process. As most drillers are hired simply to find water, they frequently stop drilling as soon as they encounter a significant aquifer zone. Since tapping into the top few metres of a significant aquifer is all that is necessary to meet the needs of most domestic well owners, very little of the permeable aquifer material is sampled and documented within the driller’s logs. As a result, the majority of driller’s logs are typically a record of aquitard materials, with only the bottom-most screened sand or gravel unit representative of aquifer material. Despite these biases, highly significant patterns were identified within the logs, as discussed in the following sections.
 
@@ -49,6 +52,7 @@ In addition to geologic picks, 3-D polylines are drawn during the interpretation
 The figure below presents a sample cross section and shows how 3-D polylines were used to constrain tunnel channel geometry. The thin black lines in the figure that generally follow the unit boundaries are the constraint polylines. These constraint lines, together with the borehole picks, produce the unit boundaries (final interpolated units are show as solid color filled zones). 
 
 ![*Figure 4*](https://raw.githubusercontent.com/OWRC/GeoLayers/main/images/pickingonsection.png)
+_Figure 4: Polylines on Cross Section_
 
 # Interpretation Methodology
 Development of the hydrostratigraphic surfaces involves an iterative process of interpretation, gridding and refinement. Layer elevations need to be evaluated when new data becomes available. Elements of the GSC’s rules-based approach to the generation of the stratigraphic surfaces (Logan et al., 2001) are incorporated into the hydrostratigraphic interpretation methodology.  The main interpretive methodologies used were: 
