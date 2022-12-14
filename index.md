@@ -6,6 +6,10 @@ date: 2022-11-22
 output: html_document
 ---
 
+
+* TOC
+{:toc}
+
 # Introduction
 Construction of aquifer and aquitard layers geometry has been one of the most challenging tasks of the Oak Ridges Moraine Groundwater Program (ORMGP). this is an ongoing process whereby the geologic layers are updated as new data and conceptual understanding is available. The picking of geologic surfaces at borehole locations is a fundamental step in this process, however, to fully represent the complexity of the aquifer/aquitard system, geologic picks were supplemented with information obtained from subtle hydrogeologic indicators (such as well screen placement and well depth) as well as from expert intuition and geologic conceptual understanding of the sedimentological processes. This information was integrated into the model construction process using 3-D polylines to constrain the interpolation processes.
 
