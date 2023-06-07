@@ -149,4 +149,3 @@ Russell, H.A.J., Brennand, T.A., Logan, C., and Sharpe, D.R. 1998. Standardizati
 Sharpe, D.R., Dyke, L.D., Good, R.L., Gorrell, G., Hinton, M.J., Hunter, J.A., and Russell, H.A.J. 2003. GSC High-quality borehole, "Golden Spike", data Oak Ridges Moraine, southern Ontario. Geological Survey of   Canada, Open File 1670, 21 p.
 Sharpe, D.R., Pullan, S.E., and Gorrell, G. 2011. Geology of the Aurora high-quality stratigraphic reference site and significance to the Yonge Street buried valley aquifer, Ontario. Geological Survey of Canada, Current Research 2011-1, 20p. doi:10.4095/286269.
 Sharpe, D.R., Pugin, A.J.M., and Russell, H.A.J. 2018. Geological framework of the Laurentian trough aquifer system, southern Ontario. Canadian Journal of Earth Sciences, 55, 677-708.
-
