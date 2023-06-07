@@ -140,12 +140,20 @@ The geologic surfaces produced through this study and provided by the ORMGP are 
 
 # References
 
-Beatty and Associates. 2003.
-Earthfx Inc. 2006. Groundwater Modelling of the Oak Ridges Moraine Area. Prepared for the York Peel Durham Toronto (YPDT) Conservation Authorities Moraine Coalition (CAMC) Groundwater Management Study. CAMC/YPDT   Technical Report Number 01-06.
-Gerber, R.E., Sharpe, D.R., Russell, H.A.J., Holysh, S., and Khazaei, Esmaeil. Conceptual hydrogeological model of the Yonge Street Aquifer, south-central Ontario: a glaciofluvial channel-fan setting. Canadian     Journal of Earth Sciences, 55, 730-767.
+Beatty and Associates. 2003. Updating of the MOE Water Well Record Database for the Regions of York, Peel and Durham. Prepared for York Peel Durham Groundwater Strategy STudy Management Team. 300 p.
+
+Earthfx Inc. 2006. Groundwater Modelling of the Oak Ridges Moraine Area. Prepared for the York Peel Durham Toronto (YPDT) Conservation Authorities Moraine Coalition (CAMC) Groundwater Management Study. CAMC/YPDT Technical Report Number 01-06.
+
+Gerber, R.E., Sharpe, D.R., Russell, H.A.J., Holysh, S., and Khazaei, Esmaeil. Conceptual hydrogeological model of the Yonge Street Aquifer, south-central Ontario: a glaciofluvial channel-fan setting. Canadian    Journal of Earth Sciences, 55, 730-767.
+
 Karrow, P.F. 1967. Pleistocene Geology of the Scarborough Area. Ontario Geological Survey Report 46, 108p. 
+
 Logan, C., Russell, H.A.J., and Sharpe, D.R. 2001.Regional three-dimensional stratigraphic modellingof the Oak Ridges Moraine area, southern Ontario. Geological Survey of Canada Current Research 2001-D1.
-Russell, H.A.J., Brennand, T.A., Logan, C., and Sharpe, D.R. 1998. Standardization and assessment of geological descriptions from water well records, Greater Toronto and Oak Ridges Moraine areas, southern           Ontario. In Current Research 1998-E, Geological Survey of Canada, p. 89-102.
-Sharpe, D.R., Dyke, L.D., Good, R.L., Gorrell, G., Hinton, M.J., Hunter, J.A., and Russell, H.A.J. 2003. GSC High-quality borehole, "Golden Spike", data Oak Ridges Moraine, southern Ontario. Geological Survey of   Canada, Open File 1670, 21 p.
+
+Russell, H.A.J., Brennand, T.A., Logan, C., and Sharpe, D.R. 1998. Standardization and assessment of geological descriptions from water well records, Greater Toronto and Oak Ridges Moraine areas, southern          Ontario. In Current Research 1998-E, Geological Survey of Canada, p. 89-102.
+
+Sharpe, D.R., Dyke, L.D., Good, R.L., Gorrell, G., Hinton, M.J., Hunter, J.A., and Russell, H.A.J. 2003. GSC High-quality borehole, "Golden Spike", data Oak Ridges Moraine, southern Ontario. Geological Survey of  Canada, Open File 1670, 21 p.
+
 Sharpe, D.R., Pullan, S.E., and Gorrell, G. 2011. Geology of the Aurora high-quality stratigraphic reference site and significance to the Yonge Street buried valley aquifer, Ontario. Geological Survey of Canada, Current Research 2011-1, 20p. doi:10.4095/286269.
+
 Sharpe, D.R., Pugin, A.J.M., and Russell, H.A.J. 2018. Geological framework of the Laurentian trough aquifer system, southern Ontario. Canadian Journal of Earth Sciences, 55, 677-708.
