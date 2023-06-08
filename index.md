@@ -21,13 +21,15 @@ output: html_document
 &nbsp;&nbsp;&nbsp;Southern Ontario is underlain by Quaternary surficial sediments that can exceed 200 m in thickness. Beneath this sediment package lies Paleozoic bedrock that has a surface characterized by a series of exposed escarpments and a deep bedrock trough, including tributary bedrock valleys. In addition, there are secondary bedrock valleys that are smaller in scale. The bedrock surface was shaped by a combination of fluvial, glacial and glaciofluvial processes. The Quaternary sediments for the ORMGP study area (south-central Ontario) is a complex assemblage of alternating glacial (till, glacio-lacustrine/fluvial) and interglacial deposits, and includes regional unconformities. 
 
 &nbsp;&nbsp;&nbsp;Figure 1 depicts the stratigraphic framework for south-central Ontario (from Sharpe et al. 2011) depicting the approximate age, lithostratigraphy, and chronostratigraphy for the various geologic units present, including major unconformities. There are five major geologic units present within the study including (from youngest to oldest):
+
 <ol>
-1. Surficial till units including local glaciolacustrine veneer (e.g., Halton Till);
-2. Oak Ridges Moraine;
-3. Newmarket Till;
-4. Lower Sediments (including Thorncliffe Fm., Sunnybrook Drift, Scarborough Fm., and locally the Don Formation and York Till); and
-5. Bedrock.
+<li>1. Surficial till units including local glaciolacustrine veneer (e.g., Halton Till);<li>
+<li>2. Oak Ridges Moraine;<li>
+<li>3. Newmarket Till;<li>
+<li>4. Lower Sediments (including Thorncliffe Fm., Sunnybrook Drift, Scarborough Fm., and locally the Don Formation and York Till); and<li>
+<li>5. Bedrock.<li>
 <ol>
+
 The ORM consists of channel and ridge sediments as part of the landform architecture that occur above the Newmarket Till which is interpreted to occur throughout the study area. Lower Sediment comprises a series of formations and units below the Newmarket Till and resting on bedrock, which are exposed in outcrop close to the Lake Ontario shore (e.g., Karrow, 1967) and extend northward for various distances. The northern extent of units is often difficult to trace due to a decrease in density of deep borehole data for the thick Quaternary sediment package beneath the Oak Ridges Moraine and above the Laurentian bedrock trough. Lower Sediments are thickest within the Laurentian trough and thin towards upland areas associated with the Canadian Sheild to the north and the Niagara Escarpment to the west. Unconformities are present within the Quaternary sediment package. A major unconformity occurs beneath the Oak Ridges Moraine (ORM) due to channelization processes and subsequent infill (C2), with older local unconformities occurring within the upper part of the Lower Sediment package (Upper Thorncliffe Formation; C1). Both ages of channels are infilled with fining-upward sequences consisting of (oldest to youngest) gravel, sand, and capped by silt/clay rhythmites. Channels are very important to the hydrogeology of the study area in that they contain the highest permeability aquifer units.
 
 ![*Figure 1*](https://raw.githubusercontent.com/OWRC/GeoLayers/main/images/sharpeab.png)
